@@ -6,30 +6,31 @@ import java.util.*;
 
 public class team_test {
     public static void main(String[] args) {
-        // 랜덤함수를 이용해서 랜덤 숫자 3자리 설정 - LinkedHashSet을 이용
-        // while을 이용하여 반복 시도
-        // 버퍼리더를 split해서 한자리씩 문자열 배열에 넣고 숫자 배열로 변경해준다.
-        // 기회는 cnt해서 출력
-        // 입력을 받은 배열을 set을 iterator한것과 비교 S와 B의 개수 채크후 출력
-        // 일치할 경우 while 종료
+        //팀원들 각자의 사고과정
+        
+        //  랜덤함수를 이용해서 랜덤 숫자 3자리 설정 - LinkedHashSet을 이용
+        //  while을 이용하여 반복 시도
+        //  버퍼리더를 split해서 한자리씩 문자열 배열에 넣고 숫자 배열로 변경해준다.
+        //  기회는 cnt해서 출력
+        //  입력을 받은 배열을 set을 iterator한것과 비교 S와 B의 개수 채크후 출력
+        //  일치할 경우 while 종료
 
 
-//            랜덤 함수를 이용해서 랜덤 숫자 3자리 설정
-//            While 반복문에서 게임 종료 되기 전까지 사용자 입력 배열과 정답 배열 비교. 스트라이크와 볼 개수 계산
-//            정답일 때 while 종료
+        //  랜덤 함수를 이용해서 랜덤 숫자 3자리 설정
+        //  While 반복문에서 게임 종료 되기 전까지 사용자 입력 배열과 정답 배열 비교. 스트라이크와 볼 개수 계산
+        //  정답일 때 while 종료
 
-            /*
-            1. BufferedReader로 원하는 숫자 문자열로 입력한다.
-            2. Set<Integer> hashSet과 변수 a1, a2, a3에 입력받은 문자열 int 형으로 저장한다.
-            3. 1~9까지의 숫자를 LinkedList<Integer> numList에 저장해둬 삭제와 추가가 쉽도록 한다.
-            4. Random random = new Random();을 이용해 numList.size()만큼 돌려준다.
-            5. 나온 숫자 순서에 있는 배열 요소를 따로 저장하고 remove한다.
-            6. 4~5번 과정을 두번 더 반복하고, 3개의 숫자를 검사해 ball과 strike가 몇개인지 판별한다.(함수 사용)
-            7. 만일 모두 틀렸으면 numList에서 삭제한 상태 그대로를 유지한다.
-            8. ball과 strike합이 3개면 3ball 또는 3strike를 맟춘다.
-            9. 1개일때는 제거한 숫자를 다시 numList에 돌려주고 4번부터 반복한다.
-            10. 2개일때는.. 흠.. 어쩌지....
-            */
+        //  1. BufferedReader로 원하는 숫자 문자열로 입력한다.
+        //  2. Set<Integer> hashSet과 변수 a1, a2, a3에 입력받은 문자열 int 형으로 저장한다.
+        //  3. 1~9까지의 숫자를 LinkedList<Integer> numList에 저장해둬 삭제와 추가가 쉽도록 한다.
+        //  4. Random random = new Random();을 이용해 numList.size()만큼 돌려준다.
+        //  5. 나온 숫자 순서에 있는 배열 요소를 따로 저장하고 remove한다.
+        //  6. 4~5번 과정을 두번 더 반복하고, 3개의 숫자를 검사해 ball과 strike가 몇개인지 판별한다.(함수 사용)
+        //  7. 만일 모두 틀렸으면 numList에서 삭제한 상태 그대로를 유지한다.
+        //  8. ball과 strike합이 3개면 3ball 또는 3strike를 맟춘다.
+        //  9. 1개일때는 제거한 숫자를 다시 numList에 돌려주고 4번부터 반복한다.
+        //  10. 2개일때는.. 흠.. 어쩌지....
+        //  11. 앗 반대로 생각했구나 ;;
 
         // 랜덤 숫자 부여
         Random rd = new Random();
